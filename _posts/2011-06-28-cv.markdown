@@ -1,0 +1,49 @@
+---
+layout: post
+title: CV
+date: 2011-06-28 20:48:03.000000000 +01:00
+---
+
+
+## Professional experience
+
+### Software Developer
+
+**IBM**, Hursley Park,Winchester, Hampshire  
+ June 2012 – July 2013
+
+Year in industry placement, working on IBM Websphere MQ as part of the Pervasive team. Dealing with support of the MQTT protocol. I primarily worked on the Java implementation of IBM and Paho’s MQTT client library, along with developing a multiplatform test framework enabling tests to be written once and translated to different platforms providing more test coverage.
+
+I developed and maintained the framework test driver for android. Along with this I assisted in the initial development of the Android MQTT Sample Application, later becoming the sole developer maintaining it. In addition to this I was [podcast about MQTT on Android](https://www.ibm.com/developerworks/community/blogs/c565c720-fe84-4f63-873f-607d87787327/entry/getting_up_and_running_with_mobile_messaging_for_android1?lang=en)
+
+I spent a few months working as part of the UI team working on MQExplorer, gaining some experience in UI development and eclipse plug-in development.
+
+### Demonstrator
+
+**Aberystwyth University**, Aberystwyth, Ceredigion  
+ September 2011 – May 2012
+
+Holding practical lab sessions for first year computer science students, helping them with Java programming problems, and Ensuring completion of worksheets set by lecturers are completed, to the level expected.
+
+
+##  Personal Experience
+
+**Aberystwyth Community of Gamers**  
+ Secretary  
+ June 2011 – June 2012
+
+Aberystwyth Community of Gamers started during my first year at Aberystwyth University. I became a part of the society core and then towards the end of my first year in Aberystwyth I was made secretary of the society during the elections, a position which I will continue to hold until the end of my second year.
+
+During the 2011/12 academic year Aberystwyth Community of Gamers increased membership by from around 25 for the 2010/11 academic year to around 120 for 2011/12. Also we came close to breaking Aberystwyth Guild of Students’ previous record for most sign ups during fresher’s fayre, without working closely together we would have not achieved this
+
+
+## Programming
+
+Over the last few years I have gained experience developing different kinds of applications, from mobile applications to be involved in larger products, as showcased during my time at IBM as an Industrial Trainee. Most of my time focused on working in Java with time spent working with other languages, such as php, python, javascript and C. Along with working with ant build systems, building multiple programs spanning different programming languages and platforms.
+
+
+## LinkedIn
+
+More information can be found on my [LinkedIn profile](http://uk.linkedin.com/in/rhysshort/)
+
+

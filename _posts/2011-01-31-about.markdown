@@ -1,0 +1,10 @@
+---
+layout: post
+title: About
+date: 2011-01-31 16:31:36.000000000 +00:00
+---
+
+
+I am a Software Engineer for IBM. I graduated with 2:1 BSc (Hons) from Aberystwyth University in July 2014. I’m currently part of the IBM Cloudant mobile team working on sync and client libraries among other mobile goodies. These libraries are open source and available on [github](https://github.com/cloudant/).  As part of my degree I had a year in industry placement at  IBM where I was an Industrial Trainee; working as part of a team working on [MQTT](http://www.mqtt.org) support in WebSphere MQ and the [Paho](http://www.eclipse.org/paho) project. I have developed as a tester and a developer during my time at IBM, and I developed the MQTT Android Sample Application which is included in WebSphere MQ and mobile and m2m client pack.
+
+

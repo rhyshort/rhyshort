@@ -1,0 +1,15 @@
+---
+layout: post
+title: MQTT - Message Queue Telemetry Transport
+date: 2013-09-06 01:00:04.000000000 +01:00
+---
+
+MQTT is a useful application level protocol implementing a pubsub (publish and subscription) model of communications using TCP as its transport mechanism. This means that instead of polling you leave a socket open to the MQTT broker and only when a message needs to be sent the connection is utilised.  This means that it transmits little data between the sever and the client providing the keep alive time is set to a sufficiently high enough that the pings the client sends to show to the server is still connected, does not send a large number of packets, thus increasing data usage. This makes the protocol useful for usage in mobile applications and embedded devices. In the mobile space Facebook uses the protocol in their android application and is one such high profile example of its usage.
+
+<span style="line-height: 1.5;">If your building an application for android and you want to avoid sending push notifications via GCM (Google Cloud Messaging), MQTT is well worth a look since its an open source protocol and allows you to control your infrastructure for sending notifications and other information to your application without polling.</span>
+
+There are a large number of client libraries available  that provide and API for publish and subscribing to MQTT topics, a large list is available over at [mqtt.org](http://mqtt.prg) however I would recommend using the Paho MQTT Libraries which are open source and shipped as part of IBM WebSphere MQ 7.5.0.1.
+
+There are also a number of open source MQTT brokers (servers) along with commercial alternatives listed at [mqtt.org](http//mqtt.org).
+
+

@@ -1,0 +1,32 @@
+---
+layout: post
+title: JQ
+date: 2015-02-07 08:16:38.000000000 +00:00
+---
+
+My day job at IBM is developing CouchDB Sync libraries for Java, Android and Objective-C. Alot of this tends to be working with JSON and cURL in the terminal. One of the tools I’ve found useful ( and wish I knew of sooner) is [JQ](http://stedolan.github.io/jq/). JQ is a handy tool for processing JSON received from a CouchDB instance. JQ is self styled as the sed for JSON. It is a really powerful tool which allows you transform JSON data in various ways.
+
+For example if you have a large number of databases and you wish to bulk to delete them, you need to be able to get the list in an easy processable way. I have a [fish](http://fishshell.com/) function:  
+```
+function delete-db
+    for $db in $argv
+    eval curl -X DELETE http://localhost:5984/$db
+    end
+end
+```
+
+it takes a list of databases to delete, then deletes from the local couchdb server. The problem is getting a list of databases when there is a large list, for this I wrote this JQ:
+
+```
+[.[]| if startswith("_") | not then . else empty end] | reduce .[] as $dbs (""; . + " "+ $dbs)
+```
+
+the above function will turn the JSON array returned by CouchDB into a space separated list.
+
+Note: In order to get JQ to print out the result without quotes around stings, you need to use the -r option
+
+JQ is really useful, you should look at the documentation to see how powerful it is, although it has some quirks like if statements much have an else, hence the `empty` keyword.
+
+Disclaimer: This post is mostly for my benefit so I don’t lose my JQ function or what it does 😉
+
+
