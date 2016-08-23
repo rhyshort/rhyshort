@@ -1,9 +1,0 @@
----
-layout: post
-title: Status
-date: 2012-08-25 15:34:15.000000000 +01:00
----
-
-I’m working as an Industrial Trainee for IBM for my year in industry. As a result I’m busy working on projects and learning valuable lessons I wouldn’t otherwise learn from just doing my degree in Aberystwyth. During this time I will not updating this blog. However there might be some updates on my projects from my second year in University.
-
-
