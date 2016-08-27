@@ -7,7 +7,7 @@
 
 # Site settings
 title: Rhys Short
-email: rhys.short@gmail.com
+email: 
 description: > # this means to ignore newlines until "baseurl:"
   Rhys Short's blog.
 baseurl: "" # the subpath of your site, e.g. /blog
