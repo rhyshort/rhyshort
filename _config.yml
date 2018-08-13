@@ -18,3 +18,5 @@ github_username:  rhyshort
 # Build settings
 markdown: kramdown
 paginate: 5
+
+theme: jekyll-theme-cayman
